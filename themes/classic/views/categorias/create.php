@@ -1,7 +1,7 @@
 <?php
 /* @var $this CategoriasController */
 /* @var $model Categoria */
-
+echo 'teste';
 $this->breadcrumbs=array(
 	'Categorias'=>array('index'),
 	'Create',
@@ -15,4 +15,4 @@ $this->menu=array(
 
 <h1>Create Categoria</h1>
 
-<?php $this->renderPartial('_form', array('model'=>$model)); ?>
+<?php $this->renderPartial('_form', array('model'=>$model, 'modelCategoriaMongoDB'=>$modelCategoriaMongoDB )); ?>
